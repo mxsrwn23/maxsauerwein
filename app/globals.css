@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+  background: radial-gradient(1000px 600px at 120% -10%, rgba(46,228,197,0.10), transparent 60%),
+              radial-gradient(800px 500px at -20% 110%, rgba(46,228,197,0.06), transparent 60%),
+              #0b1215;
+  color: #e5f1ef;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.card {
+  @apply bg-base-800 border border-base-700 rounded-2xl shadow-soft;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs border border-accent-500/30 text-accent-400;
+}

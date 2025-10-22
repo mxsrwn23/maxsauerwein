@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function AboutMe() {
   return (
-    <section id="about" className="container py-12 md:py-20 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+    <section id="about" className="container pt-28 pb-16 md:pt-36 md:pb-24 scroll-mt-28 md:scroll-mt-36 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
       <div className="relative aspect-[3/4] w-48 sm:w-64 rounded-xl overflow-hidden mx-auto md:mx-0 shadow-lg">
         <Image
           src="/me.png"

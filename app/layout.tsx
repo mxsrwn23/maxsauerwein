@@ -7,7 +7,12 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Max | Developer Portfolio",
-  description: "Next.js Portfolio von Max"
+  description: "Full-Stack Developer Portfolio von Max Sauerwein",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

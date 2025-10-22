@@ -2,9 +2,10 @@ import Section from "@/components/Section"
 import Link from "next/link"
 
 const posts = [
-  { slug: "was-braucht-ein-webentwickler", title: "Was braucht es um Webentwickler zu werden", date: "10.12.2023", reading: "4 min", excerpt: "Überblick über Pfade und Skills." },
+  /*{ slug: "was-braucht-ein-webentwickler", title: "Was braucht es um Webentwickler zu werden", date: "10.12.2023", reading: "4 min", excerpt: "Überblick über Pfade und Skills." },
   { slug: "next-14-server-actions", title: "Server Actions in Next 14 sauber einsetzen", date: "02.03.2024", reading: "6 min", excerpt: "Pragmatische Best Practices." }
-]
+  */{ slug: "", title: "", date: "", reading: "", excerpt: "" }
+  ]
 
 export const metadata = { title: "Blog | Max" }
 

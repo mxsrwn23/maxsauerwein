@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -9,11 +9,13 @@ export default function Hero() {
 
           {/* skalierende Headline */}
           <h1 className="mt-4 font-semibold leading-tight text-balance text-[clamp(2rem,8vw,3.5rem)]">
-            Hey, ich bin <span className="text-accent-400">Max</span>. Full-Stack Developer
+            Hey, ich bin <span className="text-accent-400">Max</span>.
+            Full-Stack Developer
           </h1>
 
           <p className="text-white/70 mt-3 sm:mt-4 text-base sm:text-lg">
-            Fokus auf performante Frontends und robuste Backends. Sauberer Code. Reproduzierbare Deployments.
+            Fokus auf performante Frontends und robuste Backends. Sauberer Code.
+            Reproduzierbare Deployments.
           </p>
 
           {/* Buttons: auf Mobile full width */}
@@ -35,8 +37,8 @@ export default function Hero() {
 
         {/* Code-Karte: kein Overflow auf Mobile */}
         <div className="card p-4 sm:p-6">
-          <pre className="text-xs sm:text-sm overflow-x-auto whitespace-pre max-w-full">
-{`const max = {
+          <pre className="text-xs sm:text-sm overflow-x-auto whitespace-pre-wrap break-words max-w-full">
+            {`const max = {
   role: "Full-Stack Dev",
   stack: ["TypeScript", "Next.js", "Node.js"],
   location: "Trier",
@@ -46,5 +48,5 @@ export default function Hero() {
         </div>
       </div>
     </div>
-  )
+  );
 }

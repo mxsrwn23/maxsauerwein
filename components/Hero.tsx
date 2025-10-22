@@ -10,7 +10,7 @@ export default function Hero() {
           {/* skalierende Headline */}
           <h1 className="mt-4 font-semibold leading-tight text-balance text-[clamp(2rem,8vw,3.5rem)]">
             Hey, ich bin <span className="text-accent-400">Max</span>.
-            Full-Stack Developer
+            Full-Stack Developer (dualer Student)
           </h1>
 
           <p className="text-white/70 mt-3 sm:mt-4 text-base sm:text-lg">
@@ -39,8 +39,8 @@ export default function Hero() {
         <div className="card p-4 sm:p-6">
           <pre className="text-xs sm:text-sm overflow-x-auto whitespace-pre-wrap break-words max-w-full">
             {`const max = {
-  role: "Full-Stack Dev",
-  stack: ["TypeScript", "Next.js", "Node.js"],
+  role: "Full-Stack Dev (dualer Student)",
+  stack: ["JAVA", "Python", "HTML" , "CSS", "JS"],
   location: "Trier",
   fun: ["Motorradfahren", "3D-Druck", "Selfhosting"]
 }`}
